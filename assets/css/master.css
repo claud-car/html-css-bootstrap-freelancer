@@ -1,7 +1,4 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -134,6 +131,10 @@
   font-size: 22px;
 }
 
+.position{
+  position: relative;
+}
+
 .photo{
   margin: 5% 0;
 }
@@ -148,6 +149,11 @@
   opacity: 0.3;
   background-color: #1ABC9C;
   transition: 0.5s;
+}
+
+.layer{
+  background-color: #1ABC9C;
+  border-radius: 10px;
 }
 
 /* FIRST SECTION-PORTFOLIO */
@@ -441,7 +447,7 @@
   }
 
   .sez-portfolio h3{
-      font-size: 60px;
+      font-size: 50px;
   }
 
 
