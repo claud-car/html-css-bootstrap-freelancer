@@ -28,6 +28,10 @@
   background-color: #2C3E50;
 }
 
+.bg-darkblue{
+  background-color: #1A252F;
+}
+
 .navbar-brand{
   font-size: 20px;
   font-weight: bold;
@@ -236,6 +240,36 @@
 
 /* THIRD SECTION CONTACT-ME */
 
+/* FOOTER */
+
+.footer-sec{
+  color: #FFFFFF;
+  padding: 10% 10%;
+}
+
+.footer-sec .mrg-foot{
+  margin: 4% 0;
+}
+
+.footer-sec h4{
+  font-size: 17px;
+}
+
+.footer-sec span{
+  color: #1ABC9C;
+}
+
+.icon-foot{
+  margin: 0 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5%;
+}
+
+.footer-sec2{
+  font-size: 12px;
+}
+
 @media all and (min-width:768px) {
   /* INTRO */
   .general-rule-intro >img{
@@ -356,6 +390,22 @@
   }
 
   /* SECTION CONTACT-ME */
+
+  /* FOOTER */
+
+  .footer-sec{
+    padding:0 8%;
+  }
+
+  .icon-foot{
+    margin: 0 5px;
+    padding: 4%;
+  }
+
+  .footer-sec2{
+    padding: 5% 0;
+  }
+
 }
 
 @media all and (min-width:992px){
@@ -458,4 +508,14 @@
   }
 
   /* SECTION CONTACT-ME */
+
+  /* FOOTER */
+
+  .footer-sec{
+    padding:0 20%;
+  }
+
+  .footer-sec2{
+    padding: 3% 0;
+  }
 }
