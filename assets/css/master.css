@@ -184,7 +184,10 @@
   padding-right:10px;
 }
 
+/* SECOND SECTION-ABOUT */
+
 @media all and (min-width:768px) {
+  /* INTRO */
   .general-rule-intro >img{
     width: 300px;
     padding-bottom: 5%;
@@ -215,6 +218,10 @@
     font-size: 22px;
   }
 
+  /* INTRO */
+
+  /* SECTION PORTFOLIO */
+
   .pfl-mrg-right{
     margin-right: 2%;
   }
@@ -235,6 +242,10 @@
     max-width: 12rem;
   }
 
+  /* SECTION PORTFOLIO */
+
+  /* SECTION ABOUT */
+
   #style-h3{
     font-size: 40px;
   }
@@ -254,9 +265,14 @@
     padding-bottom: 10%;
   }
 
+  /* SECTION ABOUT */
+
 }
 
 @media all and (min-width:992px){
+
+  /* INTRO */
+
   .navbar-header {
     padding-left: 10%;
   }
@@ -290,6 +306,9 @@
     width: 95%;
   }
 
+  /* INTRO */
+  /* SECTION PORTFOLIO */
+
   .pfl-mrg-left{
     margin: 0;
   }
@@ -307,8 +326,25 @@
       font-size: 60px;
   }
 
+  /* SECTION PORTFOLIO */
+  /* SECTION ABOUT */
   .cl-about{
     margin-bottom: 1% !important;
   }
+
+  .sez-about h3{
+    margin-top: 50px;
+  }
+
+  .sez-about p{
+    margin-bottom: 50px;
+  }
+
+  .sez-about{
+    padding: 0 15%;
+    padding-bottom: 5%;
+  }
+
+  /* SECTION ABOUT */
 
 }
